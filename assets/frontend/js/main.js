@@ -75,7 +75,7 @@ $('#mainHeader  a').click(function () {
             Site Preloader
         ----------------------------------------------------*/
         var $sitePreloaderSelector = $('.site-preloader');
-        $sitePreloaderSelector.fadeOut(500);
+        $sitePreloaderSelector.fadeOut(250);
 
 
     });
