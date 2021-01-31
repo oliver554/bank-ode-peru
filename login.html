@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="zxx">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title> Bank Of Peru |     Sign in </title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon">
+    <!--Bootstrap Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/frontend/css/bootstrap.css">
+    <!--Font Awesome Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/frontend/css/all.min.css">
+    <!--Animate Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/frontend/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/frontend/css/owl.video.play.png.css">
+
+
+
+
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/frontend/img/faqbg.png.css">
+
+    <!--Responsive Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/frontend/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/admin/css/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="assets/frontend/css/color.php@color=1672B7.css" rel="stylesheet">
+
+</head>
+
+<body class="body-class">
+<!--Start Preloader-->
+<div class="site-preloader">
+    <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+    </div>
+</div>
+<!--End Preloader-->
+
+<!-- Main Menu Area Start -->
+<header id="mainHeader" class="header">
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/image/logo.png" style="max-width: 220px; max-height: 100px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- here -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#aboutUs ">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#services ">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="latest-news.html">Latest News</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#faq ">Faq</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <select id="langSel">
+                        <option style="color: black" value="en"> English</option>
+                                                    <option value="bn"  style="color: black"><img src="assets/image/lang/bn.png"> বাংলা</option>
+                                                    <option value="in"  style="color: black"><img src="assets/image/lang/in.png"> हिंदी</option>
+                                            </select>
+
+                </ul>
+                <div class="viewPlan">
+                    <a href="login.html">
+                        Sign in                    </a>
+                </div>
+                <!-- <div class="viewPlan">
+                    <a href="register.html">
+                        Sign up                    </a>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation -->
+    <div class="clearfix"></div>
+</header>
+<!-- Main Menu Area End -->
+
+
+<section id="welcomeArea" style="background: url(assets/image/breadcrumb.jpg) no-repeat top;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+                <div class="topcontent-bank">
+                    <h1>    Sign in</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <section id="paymentMethod">
+        <div class="container">
+           
+
+            <div class="row calculate justify-content-center">
+                <div class="col-md-10 col-lg-8">
+                    <div class="box" id="login-form">
+                        <!-- action="Bank Of Peru _ Dashboard.html" -->
+
+                        <form name="login_form" method="post"  onsubmit="return validateForm()">
+                            <!-- <input type="hidden" name="_token" value="zT310Nso9rZkbPJ7iWnYFDEqJfSz6CnZscgfKx9U">                            <div class="row"> -->
+                                <div class="col-md-12">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-12">
+
+                                            <input type="text" id="usr" name="username" class="myForn" placeholder="Username" required>
+                                        </div>
+                                        <div class="form-group col-md-12">
+
+                                            <input type="password" id="pwd" name="password" class="myForn" placeholder="Password" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                        <div class="form-group padding-top-10 col-md-12">
+                                            <button class="btn" type="submit">Sign in</button>
+                                        </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Start of Tawk.to Script-->
+<!--End of Tawk.to Script-->
+<!-- Footer Area Start -->
+<footer id="footer">
+    <div class="container">
+        <div class="row newslatterBox">
+            <div class="col-12">
+                <div class="box d-flex">
+                    <div class="left">
+                        <h2>
+                            Join Our Newsletter                        </h2>
+                        <div class="sectionSeparator"></div>
+                    </div>
+                    <div class="right">
+                        <form action="https://bankodeperu.com/subscribe" method="post">
+                            <input type="hidden" name="_token" value="zT310Nso9rZkbPJ7iWnYFDEqJfSz6CnZscgfKx9U">                            <input type="text" name="email" placeholder="Enter your email">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="box">
+                    <div class="logo">
+                        <a href="index.html">
+                            Bank Of Peru
+                        </a>
+                    </div>
+                    <p>
+                         We bring the right people together to challenge established thinking and drive transformation. We will show the way to successive.
+                    </p>
+                    <div class="social_links">
+                        <ul>
+
+
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-3">
+                <div class="box box4">
+                    <h2 >
+                        Contact Us                    </h2>
+                                            <p style="padding-top: 10px">
+                            Sede Central, Centenario 106, La Molina 15026, Lima, Perú.
+                        </p>
+
+                                            <p style="padding-top: 10px">
+                            support@bankodeperu.com
+                        </p>
+
+                                            <p style="padding-top: 10px">
+                            +89123000019
+                        </p>
+
+                                    </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p class="text-center">
+            © 2021 Bank Of Peru. All rights reserved
+        </p>
+    </div>
+</footer>
+
+
+<!--Start ClickToTop-->
+<div class="totop">
+    <a href="login.html#top"><i class="fa fa-arrow-up"></i></a>
+</div>
+<!--End ClickToTop-->
+
+
+<!--jQuery JS-->
+<script src="assets/frontend/js/jquery.min.js"></script>
+<!--Bootstrap JS-->
+<script src="assets/frontend/js/bootstrap.min.js"></script>
+<script src="assets/frontend/js/popper.js"></script>
+<script src="assets/frontend/js/owl.carousel.min.js"></script>
+<script src="login.js"></script>
+
+<!--YTPlayer-->
+
+<script>
+    $(document).on('change', '#langSel', function () {
+        var code = $(this).val();
+        window.location.href = "https://bankodeperu.com/change-lang/"+code ;
+    });
+</script>
+<!-- main js -->
+<script src="assets/frontend/js/main.js"></script>
+<script type="text/javascript" src="assets/frontend/js/toastr.min.js"></script>
+</body>
