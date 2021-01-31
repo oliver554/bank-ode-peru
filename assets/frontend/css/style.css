@@ -196,8 +196,8 @@ button {
     margin: 21% auto;
     background-color: #fff;
     border-radius: 100%;
-    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
-    animation: sk-scaleout 1.0s infinite ease-in-out;
+    -webkit-animation: sk-scaleout 0.5s infinite ease-in-out;
+    animation: sk-scaleout 0.5s infinite ease-in-out;
 }
 
 @-webkit-keyframes sk-scaleout {
