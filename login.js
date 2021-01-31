@@ -10,6 +10,7 @@ var password = document.getElementById("pwd").value;
     }
     else{
         alert("wrong password");
+		document.login_form.action = "login.html";
         // window.location.replace("index.html");
     }
 }
